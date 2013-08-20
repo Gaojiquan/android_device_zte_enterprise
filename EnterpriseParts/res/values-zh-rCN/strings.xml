@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">高级设置</string>
+
+    <string name="category_backlightdisable_title">背光灯</string>
+    <string name="backlightdisable_title_head">禁用按键背光灯</string>
+    <string name="backlightdisable_summary_head">禁用电容触摸键的背光灯</string>
+
+    <string name="category_smartdimmer_title">Nvidia 智能背光调节</string>
+    <string name="smartdimmer_switch_title_head">启用</string>
+    <string name="smartdimmer_switch_summary_head">开启/关闭 智能背光调节 (开启将降低电量使用与 LCD 背光并加强对比度/色彩；关闭将导致更亮的 LCD 背光)</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+	<string name="category_storage_title">存储切换</string>
+    <string name="pref_switch_storage_title">使用内部存储</string>
+    <string name="pref_switch_storage_summary_on">使用内置 32 GSD卡(需要重启)</string>
+    <string name="pref_switch_storage_summary_off">使用TF卡(需要重启)</string>
+    <string name="pref_storage_switch_unavailable">此设备无扩展内部存储</string>
+
+</resources>

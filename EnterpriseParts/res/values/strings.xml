@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources>
+    <string name="app_name">Advanced settings</string>
+
+    <string name="category_backlightdisable_title">Backlight</string>
+    <string name="backlightdisable_title_head">Disable Button Backlight</string>
+    <string name="backlightdisable_summary_head">Select to disable the capacitive button backlight</string>
+
+    <string name="category_smartdimmer_title">nVidia SmartDimmer</string>
+    <string name="smartdimmer_switch_title_head">Enable</string>
+    <string name="smartdimmer_switch_summary_head">Switch nVidia SmartDimmer on/off (switching on saves battery life with less backlight and more contrast/colors, switching off should give brighter LCD backlight)</string>
+
+    <!-- Application Settings : Switch storage mountpoints -->
+	<string name="category_storage_title">Storage Switcher</string>
+    <string name="pref_switch_storage_title">Use internal storage</string>
+    <string name="pref_switch_storage_summary_on">Using expanded internal storage for apps and media (requires reboot)</string>
+    <string name="pref_switch_storage_summary_off">Using removable card for apps and media (requires reboot)</string>
+    <string name="pref_storage_switch_unavailable">This device doesn\'t have expanded internal storage</string>
+
+</resources>

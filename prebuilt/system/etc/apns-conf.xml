@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2008 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This file contains fake APNs that are necessary for the emulator
+     to talk to the network.  It should only be installed for SDK builds.
+
+     This file is not installed by the local Android.mk, it's installed using
+     a PRODUCT_COPY_FILES line in the sdk section of the toplevel Makefile.
+-->
+
+<!-- use empty string to specify no proxy or port -->
+<!-- This version must agree with that in apps/common/res/apns.xml -->
+<apns version="7">
+    <apn carrier="CMNET"
+        mcc="460"
+        mnc="00"
+        apn="cmnet"
+        proxy=""
+        port=""
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="CMWAP"
+        mcc="460"
+        mnc="00"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="中国移动彩信设置"
+        mcc="460"
+        mnc="00"
+        apn="cmwap"
+        proxy=""
+        port=""
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.monternet.com"
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="mms"
+    />
+
+    <apn carrier="CMNET"
+        mcc="460"
+        mnc="02"
+        apn="cmnet"
+        proxy=""
+        port=""
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="CMWAP"
+        mcc="460"
+        mnc="02"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="中国移动彩信设置"
+        mcc="460"
+        mnc="02"
+        apn="cmwap"
+        proxy=""
+        port=""
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.monternet.com"
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="mms"
+    />
+
+    <apn carrier="CMNET"
+        mcc="460"
+        mnc="07"
+        apn="cmnet"
+        proxy=""
+        port=""
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="CMWAP"
+        mcc="460"
+        mnc="07"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="中国移动彩信设置"
+        mcc="460"
+        mnc="07"
+        apn="cmwap"
+        proxy=""
+        port=""
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        mmsc="http://mmsc.monternet.com"
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="mms"
+    />
+
+    <apn carrier="中国联通3g因特网设置"
+        mcc="460"
+        mnc="01"
+        apn="3gnet"
+        proxy=""
+        port=""
+        mmsc=""
+        mmsproxy=""
+        mmsport=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+
+    <apn carrier="中国联通3gwap设置"
+        mcc="460"
+        mnc="01"
+        apn="3gwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsc=""
+        mmsproxy=""
+        mmsport=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="default"
+    />
+    
+    <apn carrier="中国联通3g彩信设置"
+        mcc="460"
+        mnc="01"
+        apn="3gwap"
+        proxy=""
+        port=""
+        mmsc="http://mmsc.myuni.com.cn"
+        mmsproxy="10.0.0.172"
+        mmsport="80"
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="mms"
+    />
+
+    <apn carrier="wap"
+        mcc="460"
+        mnc="00"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="wap"
+    />
+
+    <apn carrier="wap"
+        mcc="460"
+        mnc="01"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="wap"
+    />
+
+    <apn carrier="wap"
+        mcc="460"
+        mnc="02"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="wap"
+    />
+
+    <apn carrier="wap"
+        mcc="460"
+        mnc="07"
+        apn="cmwap"
+        proxy="10.0.0.172"
+        port="80"
+        mmsproxy=""
+        mmsport=""
+        mmsc=""
+        server=""
+        user=""
+        password=""
+        authtype="3"
+        type="wap"
+    />
+</apns>
